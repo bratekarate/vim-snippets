@@ -236,15 +236,15 @@ snippet ms mathscr
 #misc
 snippet ft \footnote
 	\\footnote{${1:${VISUAL:text}}}${0}
-snippet fig figure environment (includegraphics)
-	\\begin{figure}
-	\\begin{center}
-		\\includegraphics[scale=${1}]{Figures/${2}}
-	\\end{center}
-	\\caption{${3}}
-	\\label{fig:${4}}
-	\\end{figure}
-	${0}
+#snippet fig figure environment (includegraphics)
+	#\\begin{figure}
+	#\\begin{center}
+		#\\includegraphics[scale=${1}]{Figures/${2}}
+	#\\end{center}
+	#\\caption{${3}}
+	#\\label{fig:${4}}
+	#\\end{figure}
+	#${0}
 snippet tikz figure environment (tikzpicture)
 	\\begin{figure}[htpb]
 	\\begin{center}
@@ -256,15 +256,15 @@ snippet tikz figure environment (tikzpicture)
 	\\label{fig:${4}}
 	\\end{figure}
 	${0}
-snippet subfig subfigure environment
-	\\begin{subfigure}[${1}]{${2:\\textwidth}}
-	\\begin{center}
-		${3}
-	\\end{center}
-	\\caption{${4}}
-	\\label{fig:${5}}
-	\\end{subfigure}
-	${0}
+#snippet subfig subfigure environment
+	#\\begin{subfigure}[${1}]{${2:\\textwidth}}
+	#\\begin{center}
+		#${3}
+	#\\end{center}
+	#\\caption{${4}}
+	#\\label{fig:${5}}
+	#\\end{subfigure}
+	#${0}
 snippet tikzcd tikzcd environment in equation
 	\\begin{equation}
 	\\begin{tikzcd}
